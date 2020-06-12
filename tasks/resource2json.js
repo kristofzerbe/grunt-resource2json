@@ -1,6 +1,6 @@
 /*
- * grunt-resx2json
- * https://github.com/krze/grunt-resx2json
+ * grunt-resource2json
+ * https://github.com/kristofzerbe/grunt-resource2json
  *
  * Copyright (c) 2020 Kristof Zerbe
  * Licensed under the MIT license.
@@ -13,7 +13,7 @@ var xmlParser = require('xml2js');
 
 module.exports = function(grunt) {
 
-  grunt.registerMultiTask('resx2json', 'Converting RESX into JSON for js-lang', function() {
+  grunt.registerMultiTask('resource2json', 'Converting Resource files (RESX) into JSON for js-lang and other localization tools', function() {
 
     var options = this.options({
       encoding: grunt.file.defaultEncoding,

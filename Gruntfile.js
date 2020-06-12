@@ -1,6 +1,6 @@
 /*
- * grunt-resx2json
- * https://github.com/krze/grunt-resx2json
+ * grunt-resource2json
+ * https://github.com/kristofzerbe/grunt-resource2json
  *
  * Copyright (c) 2020 Kristof Zerbe
  * Licensed under the MIT license.
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    resx2json: {
+    resource2json: {
       convert: {
         options: {
           format: "jquery-lang"
@@ -69,8 +69,8 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'resx2json', 'nodeunit']);
-  //grunt.registerTask('test', ['clean', 'resx2json']);
+  grunt.registerTask('test', ['clean', 'resource2json', 'nodeunit']);
+  //grunt.registerTask('test', ['clean', 'resource2json']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

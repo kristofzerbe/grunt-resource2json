@@ -1,8 +1,8 @@
 {
-  "name": "grunt-resx2json",
-  "description": "Converting RESX into JSON for jquery-lang and other localization tools",
+  "name": "grunt-resource2json",
+  "description": "Converting Resource files (RESX) into JSON for js-lang and other localization tools",
   "version": "0.1.0",
-  "homepage": "https://github.com/kristofzerbe/grunt-resx2json",
+  "homepage": "https://github.com/kristofzerbe/grunt-resource2json",
   "author": {
     "name": "Kristof Zerbe",
     "email": "kristof.zerbe@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kristofzerbe/grunt-resx2json.git"
+    "url": "git://github.com/kristofzerbe/grunt-resource2json.git"
   },
   "bugs": {
-    "url": "https://github.com/kristofzerbe/grunt-resx2json/issues"
+    "url": "https://github.com/kristofzerbe/grunt-resource2json/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kristofzerbe/grunt-resx2json/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kristofzerbe/grunt-resource2json/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {

@@ -22,7 +22,7 @@ var grunt = require('grunt');
     test.ifError(value)
 */
 
-exports.resx2json = {
+exports.resource2json = {
   setUp: function(done) {
     // setup here if necessary
     done();

@@ -1,4 +1,4 @@
-# grunt-resx2json
+# grunt-resource2json
 
 > Converting RESX into JSON for [jquery-lang](github.com/Irrelon/jquery-lang-js) and other localization tools, which depends on JSON.
 
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-resx2json --save-dev
+npm install grunt-resource2json --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-resx2json');
+grunt.loadNpmTasks('grunt-resource2json');
 ```
 
-## The "resx2json" task
+## The "resource2json" task
 
 ### Overview
-In your project's Gruntfile, add a section named `resx2json` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `resource2json` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-    resx2json: {
+    resource2json: {
       convert: {
         options: {
           format: "jquery-lang"
