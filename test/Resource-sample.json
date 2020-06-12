@@ -1,0 +1,224 @@
+{
+    "root": {
+        "xsd:schema": {
+            "$": {
+                "id": "root",
+                "xmlns": "",
+                "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+                "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+            },
+            "xsd:import": {
+                "$": {
+                    "namespace": "http://www.w3.org/XML/1998/namespace"
+                }
+            },
+            "xsd:element": {
+                "$": {
+                    "name": "root",
+                    "msdata:IsDataSet": "true"
+                },
+                "xsd:complexType": {
+                    "xsd:choice": {
+                        "$": {
+                            "maxOccurs": "unbounded"
+                        },
+                        "xsd:element": [
+                            {
+                                "$": {
+                                    "name": "metadata"
+                                },
+                                "xsd:complexType": {
+                                    "xsd:sequence": {
+                                        "xsd:element": {
+                                            "$": {
+                                                "name": "value",
+                                                "type": "xsd:string",
+                                                "minOccurs": "0"
+                                            }
+                                        }
+                                    },
+                                    "xsd:attribute": [
+                                        {
+                                            "$": {
+                                                "name": "name",
+                                                "use": "required",
+                                                "type": "xsd:string"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "name": "type",
+                                                "type": "xsd:string"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "name": "mimetype",
+                                                "type": "xsd:string"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "ref": "xml:space"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "assembly"
+                                },
+                                "xsd:complexType": {
+                                    "xsd:attribute": [
+                                        {
+                                            "$": {
+                                                "name": "alias",
+                                                "type": "xsd:string"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "name": "name",
+                                                "type": "xsd:string"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "data"
+                                },
+                                "xsd:complexType": {
+                                    "xsd:sequence": {
+                                        "xsd:element": [
+                                            {
+                                                "$": {
+                                                    "name": "value",
+                                                    "type": "xsd:string",
+                                                    "minOccurs": "0",
+                                                    "msdata:Ordinal": "1"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "comment",
+                                                    "type": "xsd:string",
+                                                    "minOccurs": "0",
+                                                    "msdata:Ordinal": "2"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "xsd:attribute": [
+                                        {
+                                            "$": {
+                                                "name": "name",
+                                                "type": "xsd:string",
+                                                "use": "required",
+                                                "msdata:Ordinal": "1"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "name": "type",
+                                                "type": "xsd:string",
+                                                "msdata:Ordinal": "3"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "name": "mimetype",
+                                                "type": "xsd:string",
+                                                "msdata:Ordinal": "4"
+                                            }
+                                        },
+                                        {
+                                            "$": {
+                                                "ref": "xml:space"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "resheader"
+                                },
+                                "xsd:complexType": {
+                                    "xsd:sequence": {
+                                        "xsd:element": {
+                                            "$": {
+                                                "name": "value",
+                                                "type": "xsd:string",
+                                                "minOccurs": "0",
+                                                "msdata:Ordinal": "1"
+                                            }
+                                        }
+                                    },
+                                    "xsd:attribute": {
+                                        "$": {
+                                            "name": "name",
+                                            "type": "xsd:string",
+                                            "use": "required"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "resheader": [
+            {
+                "$": {
+                    "name": "resmimetype"
+                },
+                "value": "text/microsoft-resx"
+            },
+            {
+                "$": {
+                    "name": "version"
+                },
+                "value": "2.0"
+            },
+            {
+                "$": {
+                    "name": "reader"
+                },
+                "value": "System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+            },
+            {
+                "$": {
+                    "name": "writer"
+                },
+                "value": "System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+            }
+        ],
+        "data": [
+            {
+                "$": {
+                    "name": "Item1",
+                    "xml:space": "preserve"
+                },
+                "value": "Test"
+            },
+            {
+                "$": {
+                    "name": "Item2",
+                    "xml:space": "preserve"
+                },
+                "value": "Another Test"
+            },
+            {
+                "$": {
+                    "name": "Item3",
+                    "xml:space": "preserve"
+                },
+                "value": "More Test"
+            }
+        ]
+    }
+}
