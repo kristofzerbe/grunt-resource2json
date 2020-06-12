@@ -47,7 +47,6 @@ module.exports = function(grunt) {
             input: "test/fixtures/Resource.es-ES.resx",
             output: "temp/jquery-lang.es.json"
           }
-
         ]
       }
     },

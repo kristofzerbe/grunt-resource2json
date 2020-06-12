@@ -37,7 +37,14 @@ module.exports = function(grunt) {
         var json;
         switch (options.format.toUpperCase()) {
           case "JQUERY-LANG":
-            json = new Convert2JqueryLang(result);
+            grunt.log.writeln("Convert into '" + options.format + "' to file '" + f.output + "'");
+            json = {
+              "token": {}
+            };
+            result.root.data.forEach(function(d) {
+                grunt.log.writeln("Create token '" + d.$.name + "'");
+                json.token[d.$.name] = d.value;
+            });
             break;
 
           // Feel free to implement your format here
@@ -59,18 +66,6 @@ module.exports = function(grunt) {
       });
 
     });
-
-    var Convert2JqueryLang = function(xmlJson) {
-      grunt.log.writeln("Converting to query-lang");
-      var langPack = {
-        "token": {}
-      };
-      xmlJson.root.data.forEach(function(d) {
-          grunt.log.writeln("Create token '" + d.$.name + "'");
-          langPack.token[d.$.name] = d.value;
-      });
-      return langPack;
-    };
 
   });
 };
