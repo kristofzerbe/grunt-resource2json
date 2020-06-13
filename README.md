@@ -1,6 +1,7 @@
 # grunt-resource2json
 
-> Converting resource files (RESX) into JSON for [jquery-lang](github.com/Irrelon/jquery-lang-js) and other localization tools, which depends on JSON.
+> Converting resource files (RESX) into JSON for [jquery-lang](github.com/Irrelon/jquery-lang-js) and other localization tools, which depends on JSON.  
+> See post [Localization with resource files in JavaScript web apps](https://kiko.io/categories/JavaScript/Localization-with-resource-files-in-JavaScript-web-apps/) for more information.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
