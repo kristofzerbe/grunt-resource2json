@@ -74,4 +74,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 - Initial release
 
 12.06.2020, Version 0.1.1
-- Refactoring od using xml2js
+- Refactoring of using xml2js
