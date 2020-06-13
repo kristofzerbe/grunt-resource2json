@@ -52,7 +52,7 @@ grunt.initConfig({
 #### format
 Defines the format of the output JSON. Currently available:
 
-* **jquery-lang**  
+* **jquery-lang** by [@irrelon](https://github.com/Irrelon)    
 [https://github.com/Irrelon/jquery-lang-js](https://github.com/Irrelon/jquery-lang-js)
 
 Please feel free and implement your own format and send a Pull Request.
@@ -69,5 +69,8 @@ Path to the output JSON file
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-* **12.06.2020**  
-Initial release
+12.06.2020, Version 0.1.0  
+- Initial release
+
+12.06.2020, Version 0.1.1
+- Refactoring od using xml2js
