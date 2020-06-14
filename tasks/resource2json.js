@@ -47,7 +47,7 @@ module.exports = function(grunt) {
                 "token": {}
               };
               result.root.data.forEach(function(d) {
-                  grunt.log.writeln("Create token '" + d.$.name + "'");
+                  //grunt.log.writeln("Create token '" + d.$.name + "'");
                   json.token[d.$.name] = d.value;
               });
               break;
@@ -60,10 +60,9 @@ module.exports = function(grunt) {
               grunt.log.warn("The format '" + options.format + "' is not implemented");
               return false;
           }
-  
-          grunt.log.writeln("Write " + f.output);
           grunt.file.write(f.output, JSON.stringify(json));
-          grunt.log.writeln();  
+          var msg = "Output file '" + f.output + "' created";
+          grunt.log.writeln(msg["green"].bold);
         });
 
     });
