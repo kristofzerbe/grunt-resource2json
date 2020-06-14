@@ -73,5 +73,8 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 12.06.2020, Version 0.1.0  
 - Initial release
 
-12.06.2020, Version 0.1.1
+12.06.2020, Version 0.1.2
 - Refactoring of using xml2js
+
+14.06.2020, Version 0.1.3
+- Few and colored logs

@@ -1,7 +1,7 @@
 {
   "name": "grunt-resource2json",
   "description": "Converting resource files (RESX) into JSON for js-lang and other localization tools",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/kristofzerbe/grunt-resource2json",
   "author": {
     "name": "Kristof Zerbe",
